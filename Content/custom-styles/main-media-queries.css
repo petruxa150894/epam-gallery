@@ -1,0 +1,95 @@
+﻿@media screen and (max-width: 900px) {
+	header .uui-header .uui-navigation > li > a, 
+	footer .footer-navigation .uui-navigation > li > a {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 850px) {
+	.block-download-all {
+		right: 3%;
+		position: absolute;
+		top: 12%;
+	}
+	header .uui-header .uui-navigation > li > a {
+		padding: 0 10px;
+	}
+
+	.main-content .photo {
+		width: 200px;
+		height: 110px;
+	}
+
+	.main-content .albums .part {
+		width: 200px;
+		height: 120px;
+	}
+	.main-content .part .part-image {
+		width: 200px;
+		height: 110px;
+	}
+
+}
+@media screen and (max-width: 770px) {
+
+	header .uui-header .uui-navigation > li > a {
+		padding: 0 6px;
+	}
+
+	.uui-header nav {
+		margin-left: 0;
+		padding-left: 60px;
+		width: 90%;
+	}
+
+	.uui-navigation li a {
+		padding: 10px 10px;
+	}
+
+	.navbar-nav {
+		margin: 7.5px 0;
+	}
+
+	.form-inline .form-group {
+		display: block;
+	}
+
+		.form-inline .form-group input {
+			width: 100%;
+		}
+
+		.form-inline .form-group button,
+		.form-inline .bootstrap-select,
+		.input-location {
+			width: 185px;
+		}
+	.form-inline .word-icon {
+		padding: 2%;
+		line-height: 1em;
+		top: 0;
+	}
+}
+@media screen and (max-width: 710px) {
+
+	.uui-header nav {
+		padding-left: 40px;
+	}
+
+	.second-level .list-second {
+		padding-left: 40px;
+		margin-left: 0;
+	}
+
+	.first-level .uui-navigation .rss {
+		float: left;
+	}
+}
+@media screen and (max-width: 610px) {
+	.first-level .uui-navigation .search {
+		float: left;
+		margin-left: 0;
+	}
+
+	.form-inline .form-group input, .form-inline .form-group select {
+		width: 90%;
+	}
+ }

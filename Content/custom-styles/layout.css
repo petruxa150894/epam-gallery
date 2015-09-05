@@ -1,0 +1,148 @@
+﻿.navigation-wrapper .first-level {
+	height: 60px;
+}
+	.navigation-wrapper .first-level .rss {
+		float: right;
+	}
+	.navigation-wrapper .first-level .search {
+		margin-left: 5%;
+		float: right;
+		background-color: #1A9CB0;
+	}
+.navigation-wrapper .uui-navigation .epam-logo {
+	background: #464547;
+}
+.navigation-wrapper .second-level {
+	background-color: #eef2f5;
+	font-family: 'Source Sans Pro semibold', sans-serif;
+}
+.navigation-wrapper .arrow {
+	position: relative;
+	margin: -5px auto 0;
+	width: 0;
+	height: 0;
+	border-left: 5px solid #464547;
+	border-right: 5px solid #464547;
+	border-bottom: 5px solid #f3f3f3;
+}
+.navigation-wrapper .list-second {
+	list-style-type: none;
+	margin-bottom: 0;
+}
+	.navigation-wrapper .list-second li a {
+		text-decoration: none;
+		padding: 11px;
+		line-height: 40px;
+		color: #666;
+		border-radius: 0;
+	}
+	.navigation-wrapper .list-second li a:hover,
+	.navigation-wrapper .list-second li a:focus {
+		color: #39c2d7;
+		text-decoration: none;
+		background-color: #ffffff;
+	}
+.navigation-wrapper ul.uui-navigation li a {
+	font-weight: 500;
+}
+.navigation-wrapper .first-level .uui-navigation li .epam-logo {
+	font-weight: 500;
+	padding-left: 0;
+}
+	.navigation-wrapper .first-level .uui-navigation li .epam-logo:hover {
+		background: #464547;
+	}
+
+
+.footer-wrapper {
+	color: #6f6f6f;
+	font-size: 12px;
+}
+	.footer-wrapper .footer-navigation {
+		border-bottom: 1px solid #dee1e4;
+		position: relative;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		font-size: 15px;
+		font-family: 'Oswald Regular', Tahoma, sans-serif;
+	}
+	.footer-wrapper .footer-links {
+		float: left;
+	}
+	.footer-wrapper .footer-links ul li a {
+		text-decoration: none;
+		color: #333;
+		font-weight: bold;
+	}
+	.footer-wrapper .footer-links ul li a:hover,
+	.footer-wrapper .footer-links ul li a:focus {
+		color: #1a9cb0;
+		text-decoration: none;
+		background-color: #eef2f5;
+	}
+	.footer-wrapper .footer-logo {
+		height: 60px;
+		font-family: 'Source Sans Pro regular', sans-serif;
+		font-style: normal;
+		font-stretch: normal;
+	}
+	.footer-wrapper .footer-img {
+		background: url("../img/sprite-common.png") no-repeat 0 5px;
+		width: 80px;
+		height: 40px;
+		margin: 5px;
+		float: left;
+	}
+	.footer-wrapper .footer-link {
+		color: #1a9cb0;
+		text-decoration: none;
+		font-weight: 800;
+	}
+	.footer-wrapper .footer-navigation .first-link {
+		padding-left: 0;
+	}
+	.footer-wrapper .footer-info {
+		margin: 5px 20px;
+		float: left;
+	}
+	.footer-wrapper .footer-support {
+		float: right;
+	}
+	.footer-wrapper .footer-icons {
+		float: right;
+	}
+	.footer-wrapper .footer-link-support {
+		display: inline-block;
+		margin: 5px 7px;
+	}
+	.footer-wrapper .footer-block {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.footer-wrapper .yammer-footer, .footer-wrapper .rss-footer {
+		background-color: #848484;
+		width: 30px;
+		height: 30px;
+		float: left;
+		margin: 10px 5px;
+	}
+	.footer-wrapper .yammer-footer-icon {
+		background: url('../img/sprite-common.png') no-repeat -216px 0;
+		width: 30px;
+		height: 30px;
+	}
+	.footer-wrapper .rss-footer-icon {
+		background: url('../img/sprite-common.png') no-repeat -176px 0;
+		width: 30px;
+		height: 30px;
+	}
+
+footer {
+	background-color: #eef2f5;
+}
+.custom-main-margin {
+	  margin: 0 8%;
+}
+.full-width {
+	width: 100%;
+}

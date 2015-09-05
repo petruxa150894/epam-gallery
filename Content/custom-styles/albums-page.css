@@ -1,0 +1,49 @@
+﻿.main-content {
+	margin: 140px 6% 0 8%;
+}
+.main-content .albums {
+margin-bottom: 35px;
+}
+	.main-content .part {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 35px;
+		cursor: pointer;
+		width: 300px;
+		height: 240px;
+	}
+	.main-content .part-image {
+		width: 300px;
+		height: 210px;
+		margin-bottom: 10px;
+	}
+	.main-content .album-link {
+		text-decoration: none;
+		display: block;
+		height: 100%;
+	}
+	.main-content .album-title {
+		background:#ffffff;
+		min-height: 32px;
+		font-size: 24px;
+		line-height: 26px;
+		font-family: 'Oswald Regular', sans-serif;
+		font-weight: normal;
+		color: #474747;
+		letter-spacing: 0.25px;
+		text-transform: uppercase;
+	}
+	.main-content .album-description {
+		color: #6f6f6f;
+		font-size: 15px;
+		margin: 10px 0;
+	}
+	.main-content .album-date {
+		color: #6f6f6f;
+		font-size: 15px;
+		margin: 10px 0 30px;
+	}
+	.main-content .album-icon {
+		font-size: 22px;
+		margin-right: 10px;
+	}
